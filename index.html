@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
   </head>
+  <style>
+    #name {
+      font-family: fantasy, sans-serif;
+    }
+
+    #bio {
+      font-family: arial, sans-serif;
+    }
+
+    body {
+      background-color: rgb(120, 158, 241);
+    }
+
+    .list {
+      font-weight: 600;
+      
+    }
+
+
+  </style>
 
   <body>
 
     <h1>Portfólio</h1>
-    <h3>Me chamo: Raphael Luiz Figueirôa Padilha Gaião</h3>
+    <h3 id="name">Raphael Luiz Figueirôa Padilha Gaião</h3>
     <img  id="foto" src="/images/eu.jpeg" alt="Foto do Raphael Padilha" width="200px">
-    <p>Sou Brasileiro e mora na cidade do Recife em Pernambuco.</p>
+    <p id="bio">Sou Brasileiro e moro na cidade do Recife em Pernambuco.</p>
     <h3>Minhas Habilidades:</h3>
     <ul>
-    <li><strong>Observador</strong></li>
-    <li>Bom ouvinte</li>
+    <li class="list"><strong>Observador</strong></li>
+    <li class="list">Bom ouvinte</li>
     </ul>
-    <a href="#foto">Minha foto</a>
+    <button><a href="#foto">Minha foto</a></button>
   </body>
 </html>
