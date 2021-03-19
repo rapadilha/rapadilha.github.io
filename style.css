@@ -1,0 +1,16 @@
+#name {
+  font-family: fantasy, sans-serif;
+}
+
+#bio {
+  font-family: arial, sans-serif;
+}
+
+body {
+  background-color:rgb(84, 112, 235);
+}
+
+.list {
+  font-weight: 600;
+  
+}
