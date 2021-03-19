@@ -1,9 +1,13 @@
 #name {
   font-family: fantasy, sans-serif;
+  text-align: center;
 }
 
 #bio {
   font-family: arial, sans-serif;
+  text-align: center;
+  max-width: 100%
+  padding: 50px 10px;
 }
 
 body {
@@ -12,5 +16,21 @@ body {
 
 .list {
   font-weight: 600;
+  
+}
+
+.bio-all {
+  text-align: center;
+}
+
+#foto {
+  padding: 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.skills {
+  text-align: center;
+  border-left: 10px;
   
 }
